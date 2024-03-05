@@ -1,7 +1,13 @@
+body {
+    background-color: black;
+}
+
 h1 {
+    font-family: 'Courier New', Courier, monospace;
     color: red;
 }
 
-body {
-    background-color: black;
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
 }

@@ -3,9 +3,11 @@ body {
 }
 
 h1 {
+    font-family: 'Courier New', Courier, monospace;
     color: red;
 }
 
 p {
+    font-family: 'Courier New', Courier, monospace;
     color: red;
 }

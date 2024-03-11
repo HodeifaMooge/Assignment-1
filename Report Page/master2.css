@@ -15,9 +15,18 @@ h1 {
     color: red;
 }
 
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    background-color: white;
+    display: inline;
+}
+
 p {
     font-family: 'Courier New', Courier, monospace;
     color: red;
+    background-color: white;
+    display: block;
 }
 
 footer {

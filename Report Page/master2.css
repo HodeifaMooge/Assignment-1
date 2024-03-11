@@ -1,6 +1,13 @@
 body {
     background-color: black;
     display: grid;
+    grid-template-areas:
+    "nav"
+}
+
+nav {
+    background-color: red;
+    grid-area: nav;
 }
 
 h1 {
@@ -10,5 +17,10 @@ h1 {
 
 p {
     font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;    
     color: red;
 }

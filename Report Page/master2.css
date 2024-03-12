@@ -17,6 +17,7 @@ h1 {
 
 h2 {
     font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
     color: red;
     background-color: white;
     display: inline;
@@ -24,6 +25,7 @@ h2 {
 
 p {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
     color: red;
     background-color: white;
     display: block;

@@ -1,8 +1,11 @@
 body {
     background-color: green;
     display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     grid-template-areas:
-    "nav"
+    "nav" "nav"
+    "main" "main"
 }
 
 nav {

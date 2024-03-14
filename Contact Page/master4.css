@@ -1,5 +1,11 @@
 body {
-    background-color: black;
+    background-color: green;
+    display: grid;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
 }
 
 h1 {

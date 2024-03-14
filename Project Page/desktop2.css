@@ -1,5 +1,16 @@
+body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav nav"
+    "main main"
+}
+
 nav {
     background-color: red;
+    padding: 0.1em;
+    grid-area: nav;
 }
 
 nav ul li {

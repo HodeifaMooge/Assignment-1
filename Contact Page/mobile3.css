@@ -1,0 +1,17 @@
+body {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav"
+    "main"
+}
+
+main {
+    grid-area: main;
+}
+
+nav {
+    grid-area: nav;
+}

@@ -9,6 +9,11 @@ body {
     "footer footer"
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     background-color: red;
     grid-area: nav;

@@ -9,6 +9,7 @@ body {
 }
 
 main {
+    margin-inline: 500px;
     grid-area: main;
 }
 
@@ -28,5 +29,9 @@ h1 {
 
 p {
     font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+input::placeholder {
     color: red;
 }

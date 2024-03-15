@@ -5,6 +5,7 @@
 
 nav {
     background-color: red;
+    border: solid blue;
     padding: 0.1em;
 }
 

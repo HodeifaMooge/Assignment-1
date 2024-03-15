@@ -6,6 +6,7 @@ body {
     grid-template-areas:
     "nav"
     "main"
+    "footer"
 }
 
 nav {
@@ -18,12 +19,16 @@ main {
     grid-area: main;
 }
 
+footer{
+    grid-area: footer;
+}
+
 .showNav {
     height: 0.8em;
     width: 1.25em;
     display: block;
-    border-top: 0.2em solid red;
-    border-bottom: 0.2em solid red;
+    border-top: 0.2em solid black;
+    border-bottom: 0.2em solid black;
 }
 
 .showNav::before {
@@ -31,7 +36,7 @@ main {
     position: absolute;
     width: 1.25em;
     margin-top: 0.3em;
-    border-top: 0.2em solid red;
+    border-top: 0.2em solid black;
 }
 
 nav {

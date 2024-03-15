@@ -12,6 +12,10 @@ main {
     grid-area: main;
 }
 
+main a {
+    margin: 5px;
+}
+
 nav {
     grid-area: nav;
 }

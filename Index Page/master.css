@@ -26,6 +26,11 @@ p {
     color: red;
 }
 
+main a {
+    margin-left: 300px;
+    margin-bottom: 300px;
+}
+
 main a:hover {
     color: yellow;
 }

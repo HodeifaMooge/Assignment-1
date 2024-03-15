@@ -17,3 +17,33 @@ main {
     background-color: white;
     grid-area: main;
 }
+
+nav {
+    display: none;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+}
+
+#clicked .on {
+    display: block;
+}
+
+#clicked .off {
+    display: none;
+}
+
+#clicked:target .on {
+    display: none;
+}
+
+#clicked:target .off {
+    display: block;
+}
+
+#clicked:target nav {
+    display: block;
+}

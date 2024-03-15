@@ -1,0 +1,38 @@
+body {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav"
+    "main"
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-area: main;
+}
+
+div img {
+    width: 100%;
+}
+
+main div {
+    border: 1px solid black;
+    padding: 2em;
+}

@@ -36,7 +36,7 @@ form {
     display: grid;
     grid-template-columns: 100%;
     align-items: center;
-    row-gap: 1em;
+    row-gap: 2.5em;
     width: 400px;
 }
 

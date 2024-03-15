@@ -27,8 +27,7 @@ p {
 }
 
 main a {
-    margin-left: 300px;
-    margin-bottom: 300px;
+    margin: 300px;
 }
 
 main a:hover {

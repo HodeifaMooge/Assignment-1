@@ -6,6 +6,7 @@ body {
     grid-template-areas:
         "nav"
         "main"
+        "footer"
 }
 
 main {
@@ -18,6 +19,10 @@ main a {
 
 nav {
     grid-area: nav;
+}
+
+footer {
+    grid-area: footer;
 }
 
 .showNav {

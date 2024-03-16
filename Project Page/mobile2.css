@@ -33,6 +33,11 @@ main {
     grid-area: main;
 }
 
+div img {
+    width: 20em;
+    height: 20em;
+}
+
 footer {
     font-family: 'Courier New', Courier, monospace;
     background-color: black;

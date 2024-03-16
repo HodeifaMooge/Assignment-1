@@ -39,6 +39,7 @@ footer {
     color: white;
     display: block;
     grid-area: footer;
+    width: 25.8em;
 }
 
 div img {

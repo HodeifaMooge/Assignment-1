@@ -17,6 +17,7 @@ h1 {
 p {
     font-family: 'Courier New', Courier, monospace;
     color: red;
+    text-align: left;
 }
 
 footer {

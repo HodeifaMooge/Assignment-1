@@ -4,8 +4,9 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
-    "nav"
-    "main"
+        "nav"
+        "main"
+        "footer"
 }
 
 main {
@@ -15,6 +16,13 @@ main {
 
 nav {
     grid-area: nav;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    display: block;
 }
 
 .showNav {

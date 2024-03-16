@@ -6,6 +6,7 @@ body {
     grid-template-areas:
         "nav nav"
         "main main"
+        "footer footer"
 }
 
 main {
@@ -15,6 +16,14 @@ main {
 
 nav {
     grid-area: nav;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    display: block;
+    grid-area: footer;
 }
 
 header {
@@ -36,8 +45,10 @@ form {
     display: grid;
     grid-template-columns: 100%;
     align-items: center;
-    row-gap: 2.5em;
+    row-gap: 1.5em;
     width: 400px;
+    background-color: black;
+    padding: 1em;
 }
 
 input [type="submit"] {

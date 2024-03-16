@@ -68,3 +68,10 @@ nav {
 #clicked:target nav {
     display: block;
 }
+
+img {
+    display: block;
+    width: 20em;
+    height: 10em;
+    margin: 2em;
+}

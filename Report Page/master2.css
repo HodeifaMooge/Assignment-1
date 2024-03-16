@@ -51,3 +51,10 @@ footer {
 nav ul li:hover {
     color: black;
 }
+
+img {
+    display: block;
+    width: 40em;
+    height: 20em;
+    margin: 2em;
+}

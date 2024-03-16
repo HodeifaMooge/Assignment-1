@@ -18,6 +18,10 @@ nav {
     grid-area: nav;
 }
 
+nav ul li {
+    display: block;
+}
+
 footer {
     font-family: 'Courier New', Courier, monospace;
     background-color: black;

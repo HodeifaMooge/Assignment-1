@@ -23,6 +23,10 @@ nav {
     grid-area: nav;
 }
 
+nav ul li {
+    display: block;
+}
+
 main {
     display: grid;
     grid-template-columns: repeat(1, auto);

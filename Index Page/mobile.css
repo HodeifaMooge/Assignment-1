@@ -21,6 +21,10 @@ nav {
     grid-area: nav;
 }
 
+nav ul li {
+    display: block;
+}
+
 footer {
     grid-area: footer;
 }

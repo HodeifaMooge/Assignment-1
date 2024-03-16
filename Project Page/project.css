@@ -20,11 +20,11 @@ p {
 }
 
 footer {
+    display: block;
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
     color: white;
-    display: block;
-    grid-area: footer;
+    width: 93em;
 }
 
 main {
@@ -34,8 +34,8 @@ main {
 }
 
 div img {
-    width: 20em;
-    height: 20em;
+    width: 10em;
+    height: 10em;
 }
 
 main div {

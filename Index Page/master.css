@@ -28,18 +28,22 @@ footer {
 h1 {
     font-family: 'Courier New', Courier, monospace;
     color: red;
+    text-align: center;
     margin: 1em;
 }
 
 p {
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
-    display: inline;
+    display: block;
     color: red;
+    text-align: center;
+    text-shadow: 2px 2px 2px cyan;
     margin: 1em;
 }
 
 main a {
+    text-align: center;
     margin: 300px;
 }
 

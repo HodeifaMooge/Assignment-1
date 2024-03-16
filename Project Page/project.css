@@ -6,6 +6,7 @@ body {
     grid-template-areas:
     "nav nav"
     "main main"
+    "footer footer"
 }
 
 h1 {
@@ -16,6 +17,14 @@ h1 {
 p {
     font-family: 'Courier New', Courier, monospace;
     color: red;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    display: block;
+    grid-area: footer;
 }
 
 main {

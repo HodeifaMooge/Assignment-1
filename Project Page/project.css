@@ -46,3 +46,11 @@ main div {
     border-radius: 1em;
     padding: 2em;
 }
+
+div:hover {
+    background-color: white;
+}
+
+div {
+    transition: background-color 0.5s ease-in;
+}

@@ -30,7 +30,9 @@ footer {
 }
 
 img {
-    display: none;
+    margin: 0px;
+    width: 25.5em;
+    height: 22em;
 }
 
 .showNav {
@@ -43,7 +45,7 @@ img {
 
 .showNav::before {
     content: '';
-    position: absolute;
+    display: block;
     width: 1.25em;
     margin-top: 0.3em;
     border-top: 0.2em solid #fff;

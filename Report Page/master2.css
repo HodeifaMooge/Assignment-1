@@ -71,3 +71,9 @@ div {
 div p {
     text-align: center;
 }
+
+div a {
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+}

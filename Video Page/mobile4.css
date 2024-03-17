@@ -6,6 +6,8 @@ body {
     grid-template-areas:
     "nav"
     "main"
+    "div"
+    "footer"
 }
 
 main {
@@ -44,6 +46,26 @@ nav {
     left: 50%;
     width: 50%;
     height: 100vh;
+}
+
+div {
+    grid-area: div;
+}
+
+
+div a {
+    text-align: center;
+    font-size: 20px;
+    border: dotted white;
+    margin-left: 5em;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    display: block;
+    grid-area: footer;
 }
 
 #clicked .on {

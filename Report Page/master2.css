@@ -6,6 +6,7 @@ body {
     grid-template-areas:
     "nav nav"
     "main main"
+    "div div"
     "footer footer"
 }
 
@@ -57,4 +58,12 @@ img {
     width: 40em;
     height: 20em;
     margin: 2em;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(5, auto);
+    background-color: white;
+    grid-area: div;
 }

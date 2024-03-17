@@ -44,10 +44,11 @@ p {
 
 main a {
     text-align: center;
-    margin-left: 100px;
+    margin: 320px;
 }
 
 main a:hover {
+    background-color: black;
     color: yellow;
 }
 

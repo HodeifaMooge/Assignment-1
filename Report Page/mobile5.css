@@ -1,11 +1,12 @@
 body {
-    background-color: green;
+    background-color: white;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
     "nav"
     "main"
+    "div"
     "footer"
 }
 
@@ -21,10 +22,6 @@ nav ul li {
 main {
     background-color: white;
     grid-area: main;
-}
-
-footer{
-    grid-area: footer;
 }
 
 .showNav {
@@ -78,4 +75,22 @@ img {
     width: 20em;
     height: 10em;
     margin: 2em;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(1, auto);
+    background-color: white;
+    grid-area: div;
+    width: 10px;
+    height: 10px;
+}
+
+div p {
+    text-align: center;
+}
+
+footer{
+    grid-area: footer;
 }

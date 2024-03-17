@@ -67,3 +67,7 @@ div {
     background-color: white;
     grid-area: div;
 }
+
+div p {
+    text-align: center;
+}
